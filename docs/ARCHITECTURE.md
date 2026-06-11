@@ -443,7 +443,6 @@ Emit OpenLineage events from Spark and the compaction daemon (inputs: partition 
 ## Related documentation
 
 - [README](../README.md) — setup, Makefile commands, troubleshooting
-- [Recruiter Overview](RECRUITER_OVERVIEW.md) — skills map and 5-minute demo script
 - [Benchmark Report](BENCHMARK_REPORT.md) — methodology and sample results
 - [Example outputs](../logs/examples/) — committed metrics, benchmark report, sample events
 - [tests/README.md](../tests/README.md) — unit test suite (no Docker required)

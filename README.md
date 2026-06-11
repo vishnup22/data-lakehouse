@@ -27,7 +27,6 @@ A **local Docker portfolio project** (not a production deployment): demonstrates
 | Doc | Audience | Contents |
 |-----|----------|----------|
 | [**Architecture**](docs/ARCHITECTURE.md) | Engineers | System design, Mermaid diagram, failure modes, future work |
-| [**Recruiter Overview**](docs/RECRUITER_OVERVIEW.md) | Hiring managers | 30-second pitch, skills map, demo script |
 | [**Benchmark Report**](docs/BENCHMARK_REPORT.md) | Interview prep | Methodology + sample before/after results |
 | [**Example outputs**](logs/examples/) | Reviewers | Sample metrics, benchmark report, JSON events |
 
@@ -674,7 +673,6 @@ This project is intentionally scoped for local Docker development. In a producti
 .github/workflows/ci.yml           # GitHub Actions: ruff, mypy, pytest
 docs/
 ├── ARCHITECTURE.md                # System design document
-├── RECRUITER_OVERVIEW.md          # Hiring-manager summary
 └── BENCHMARK_REPORT.md            # Benchmark methodology
 logs/examples/                     # Committed sample outputs (portfolio)
 scripts/spark-streaming-submit.sh  # Spark submit wrapper
@@ -728,11 +726,10 @@ tests/                             # 77 unit tests (no Docker)
 
 ### 5-minute live demo script
 
-1. Open [Recruiter Overview](docs/RECRUITER_OVERVIEW.md) — skills table.
-2. Show architecture Mermaid diagram (above).
-3. `make compact-dry-run` or show dry-run terminal output.
-4. Open [`logs/examples/benchmark_report.md`](logs/examples/benchmark_report.md).
-5. Mention `make ci` — 75 tests, no Docker.
+1. Show architecture Mermaid diagram (above).
+2. `make compact-dry-run` or show dry-run terminal output.
+3. Open [`logs/examples/benchmark_report.md`](logs/examples/benchmark_report.md).
+4. Mention `make ci` — 75 tests, no Docker.
 
 ---
 
