@@ -1,0 +1,44 @@
+[
+  {
+    "event_id": "evt-0000000042-a1b2c3d4",
+    "user_id": "user_12847",
+    "account_id": "acct_03921",
+    "event_type": "purchase",
+    "amount": 149.99,
+    "event_timestamp": "2026-06-11T14:22:01.123456Z",
+    "ingest_timestamp": "2026-06-11T14:22:01.234567Z",
+    "region": "us-east",
+    "device_type": "mobile"
+  },
+  {
+    "event_id": "evt-0000000043-e5f6a7b8",
+    "user_id": "user_05231",
+    "account_id": "acct_00884",
+    "event_type": "login",
+    "amount": 0.0,
+    "event_timestamp": "2026-06-11T14:22:02.456789Z",
+    "ingest_timestamp": "2026-06-11T14:22:02.567890Z",
+    "region": "eu-central",
+    "device_type": "desktop"
+  },
+  {
+    "event_id": "evt-0000000044-c9d0e1f2",
+    "user_id": "user_31005",
+    "account_id": "acct_07112",
+    "event_type": "refund",
+    "amount": 24.5,
+    "event_timestamp": "2026-06-11T14:22:03.789012Z",
+    "ingest_timestamp": "2026-06-11T14:22:03.890123Z",
+    "region": "ap-south",
+    "device_type": "tablet"
+  },
+  {
+    "user_id": "user_99999",
+    "account_id": "acct_00001",
+    "event_type": "click",
+    "amount": "not-a-number",
+    "event_timestamp": null,
+    "region": "us-west",
+    "device_type": "tv"
+  }
+]

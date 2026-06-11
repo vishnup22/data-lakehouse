@@ -1,0 +1,7 @@
+-r requirements.txt
+confluent-kafka>=2.3.0
+s3fs>=2024.2.0
+pyspark==3.5.1
+delta-spark==3.1.0
+duckdb>=0.10.0
+pyarrow>=15.0.0
